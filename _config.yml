@@ -2,7 +2,7 @@
 # # Main Configs #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://JamesLeeeeeee.github.io
 date_format: "ordinal"
 title: 심볼
 subtitle: "공식계정: 시무룩한 프로그래머"
@@ -13,7 +13,7 @@ encoding: "utf-8"
 # 페이지 왼쪽 하단에 보이는 연도
 since: 2015
 # 소스 저장소를 자신의 것으로 대체하십시오.
-repository: mzlogin/mzlogin.github.io
+repository: JamesLeeeeeee/JamesLeeeeeee.github.io
 # css와 js 자원의 cdn 가속 설정
 cdn:
     jsdelivr:
