@@ -1,2 +1,6 @@
+# source "https://rubygems.org"
+# gemspec
+
 source "https://rubygems.org"
-gemspec
+
+gem "jekyll-theme-so-simple"
