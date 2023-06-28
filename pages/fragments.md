@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Fragments
-description: fragments 索引页
+description: fragments 색인
 keywords: fragments
 comments: false
 mermaid: true
-menu: 片段
+menu: 색인
 permalink: /fragments/
 ---
 
-> 零散的知识，简短的观点，作为片段汇集于此。
+> 소분히 흩어져 있는 지식, 짧은 관점이 여기에 모였습니다.
 
 {% assign tagliststr = '' %}
 {% for item in site.fragments %}
