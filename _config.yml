@@ -4,14 +4,13 @@
 baseurl:
 url: https://JamesLeeeeeee.github.io
 date_format: "ordinal"
-title: 심볼
-subtitle: "공식계정: 시무룩한 프로그래머"
-description: "마짱의 개인 블로그, 공식 계정: 시무룩한 프로그래머"
-keywords: 코드, Zhuang Ma, mzlogin, mazhuang, 칙칙한 프로그래머
-timezone: Asia/Shanghai
+title: 개발일지
+subtitle: "프로그래머"
+description: "프로그래머"
+keywords: 코드, JamesLee, 개발일지, coding
 encoding: "utf-8"
 # 페이지 왼쪽 하단에 보이는 연도
-since: 2015
+since: 2023
 # 소스 저장소를 자신의 것으로 대체하십시오.
 repository: JamesLeeeeeee/JamesLeeeeeee.github.io
 # css와 js 자원의 cdn 가속 설정
@@ -57,12 +56,12 @@ highlight_theme: github
 # ---------------- #
 # # Author #
 # ---------------- #
-author: Zhuang Ma
+author: JamesLee
 organization:
 organization_url:
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: JamesLeeeeeee
+location: Korea
+email: deliver0713@gmail.com
 
 # ---------------- #
 # # Navigation #
@@ -182,7 +181,7 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
 # 전체 텍스트 검색 지원 여부
-    fulltext: false
+    fulltext: true
 # 검색 결과를 최대 몇 개까지 표시할 지 여부
     limit: 10
 
