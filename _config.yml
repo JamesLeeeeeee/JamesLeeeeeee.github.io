@@ -2,18 +2,18 @@
 # # Main Configs #
 # ---------------- #
 baseurl:
-url: https://JamesLeeeeeee.github.io
+url: https://mazhuang.org
 date_format: "ordinal"
-title: blog
+title: 심볼
 subtitle: "공식계정: 시무룩한 프로그래머"
 description: "마짱의 개인 블로그, 공식 계정: 시무룩한 프로그래머"
 keywords: 코드, Zhuang Ma, mzlogin, mazhuang, 칙칙한 프로그래머
-timezone: Asia/Seoul
+timezone: Asia/Shanghai
 encoding: "utf-8"
 # 페이지 왼쪽 하단에 보이는 연도
-since: 2023
+since: 2015
 # 소스 저장소를 자신의 것으로 대체하십시오.
-repository: JamesLeeeeeee/JamesLeeeeeee.github.io
+repository: mzlogin/mzlogin.github.io
 # css와 js 자원의 cdn 가속 설정
 cdn:
 jsdelivr:
