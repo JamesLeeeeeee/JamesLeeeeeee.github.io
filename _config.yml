@@ -68,14 +68,9 @@ email: chumpma@gmail.com
 # # Navigation #
 # ---------------- #
 
-navs:
-  -
-    href: /
-    label: 首页
-
 
 navs:
-   -
+    -
         href: /
         label: 홈
 
