@@ -1,119 +1,119 @@
 # ---------------- #
-#   Main Configs   #
+# # Main Configs #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://JamesLeeeeeee.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
+title: blog
+subtitle: "공식계정: 시무룩한 프로그래머"
+description: "마짱의 개인 블로그, 공식 계정: 시무룩한 프로그래머"
+keywords: 코드, Zhuang Ma, mzlogin, mazhuang, 칙칙한 프로그래머
+timezone: Asia/Seoul
 encoding: "utf-8"
-# 页面左下角显示的年份
-since: 2015
-# 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
-# 对 css 和 js 资源的 cdn 加速配置
+# 페이지 왼쪽 하단에 보이는 연도
+since: 2023
+# 소스 저장소를 자신의 것으로 대체하십시오.
+repository: JamesLeeeeeee/JamesLeeeeeee.github.io
+# css와 js 자원의 cdn 가속 설정
 cdn:
-    jsdelivr:
-        enabled: false
-# 可选组件配置
+jsdelivr:
+enabled: false
+# 선택적 구성 요소 설정
 components:
-    # 分享
-    # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
-    share:
-        enabled: false
-        hide-platforms: qq,facebook
-    # 不蒜子访问统计
-    busuanzi:
-        enabled: false
-        start_date: 2020-05-03
-    # My Popular Repositories
-    side_bar_repo:
-        enabled: true
-        limit: 5
-    # 文章字数统计
-    word_count:
-        enabled: true
-    # 页面右上角，以及「关于」页面的二维码
-    # 修改图片请替换 assets/images/qrcode.jpg
-    qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
-    # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
-    wiki:
-        view: cate
-    # 图片灯箱效果功能
-    fancybox:
-        enabled: false
-# 压缩页面内容
+# 공유
+# # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
+share:
+enabled: false
+hide-platforms: qq,facebook
+# 불경실 방문 통계
+busuanzi:
+enabled: false
+start_date: 2020-05-03
+# # My Popular Repositories
+side_bar_repo:
+enabled: true
+limit: 5
+# 문장 자수 통계
+word_count:
+enabled: true
+# 페이지 오른쪽 상단 및 "정보" 페이지의 QR코드
+# 이미지를 수정하려면 assets/images/qrcode.jpg를 교체하십시오.
+qrcode:
+enabled: true
+image_alt: 시무룩한 프로그래머
+# 위키인덱스 페이지에서 사용할 보기, 지원 목록 (list) / 분류 (cate)
+wiki:
+view: cate
+# 이미지 라이트 박스 효과 기능
+fancybox:
+enabled: false
+# 페이지 내용 압축
 compress_html:
-  clippings: all
-  comments: ["<!--", "-->"]
-# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
+clippings: all
+comments: ["<!--", "-->"]
+# 코드 강조 스타일, 지원되는 theme 목록은 https://github.com/mzlogin/rouge-themes 를 참조하십시오.
 highlight_theme: github
 
 # ---------------- #
-#      Author      #
+# # Author #
 # ---------------- #
 author: Zhuang Ma
-organization: 
-organization_url: 
+organization:
+organization_url:
 github_username: mzlogin
 location: Wuhan, China
 email: chumpma@gmail.com
 
 # ---------------- #
-#    Navigation    #
+# # Navigation #
 # ---------------- #
 navs:
-  -
-    href: /
-    label: 首页
+-
+href: /
+label: 홈
 
-  -
-    href: /categories/
-    label: 分类
+-
+href: /categories/
+label: 분류
 
-  -
-    href: /archives/
-    label: 归档
-    mobile-hidden: true
+-
+href: /archives/
+label: 압축 파일
+mobile-hidden: true
 
-  -
-    href: /open-source/
-    label: 开源
-    mobile-hidden: true
+-
+href: /open-source/
+label: 소스 열기
+mobile-hidden: true
 
-  -
-    href: /fragments/
-    label: 片段
+-
+href: /fragments/
+label: 클립
 
-  -
-    href: /wiki/
-    label: 维基
+-
+href: /wiki/
+label: 위키
 
-  -
-    href: /links/
-    label: 链接
-    mobile-hidden: true
+-
+href: /links/
+label: 링크
+mobile-hidden: true
 
-  -
-    href: /about/
-    label: 关于
+-
+href: /about/
+label: 설명
 
 # ---------------- #
-#       RSS        #
+# # RSS #
 # ---------------- #
 subscribe_rss: /feed.xml
 
 # ---------------- #
-#      Jekyll      #
+# # Jekyll #
 # ---------------- #
 markdown: kramdown
 kramdown:
-    input: GFM
+input: GFM
 highlighter: rouge
 paginate: 10
 lsi: false
@@ -121,78 +121,78 @@ quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
 plugins:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
+- - jekyll-github-metadata
+- - rouge
+# # - jekyll-html-pipeline
+- - jekyll-paginate
+- - jekyll-sitemap
+- - jekyll-feed
+- - jemoji
+# # - jekyll-mentions
 collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
-    fragments:
-        output: true
-        permalink: /fragment/:path/
+wiki:
+output: true
+permalink: /wiki/:path/
+fragments:
+output: true
+permalink: /fragment/:path/
 
 # ---------------- #
-#      Comments    #
+# # Comments #
 # ---------------- #
-# support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
+# # support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
 comments_provider: giscus
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# disqus 配置参考：https://disqus.com
+# !!중요!!! 아래의 이 정보들을 수정하여 당신 자신을 위해 신청하십시오.
+# # !!!Important!!! Please modify infos below to yours
+# disqus 설정 참조: https://disqus.com
 disqus:
-    username: 
-# gitment 配置参考：https://imsun.net/posts/gitment-introduction/
+username:
+# # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# gitalk 配置参考：https://github.com/gitalk/gitalk#install
+owner: mzlogin
+repo: blog-comments
+oauth:
+client_id: d2e1cbbd298958076462
+client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# utterances 配置参考：https://utteranc.es/
+owner: mzlogin
+repo: blog-comments
+clientID: d2e1cbbd298958076462
+clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
-# beaudar 配置参考：https://beaudar.lipk.org/
+repo: mzlogin/blog-comments
+# # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: mzlogin/blog-comments
-# giscus 配置参考：https://giscus.app/zh-CN
+repo: mzlogin/blog-comments
+# # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
-    category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
-# 在使用其它评论组件时可点击显示 Disqus
+repo: mzlogin/blog-comments
+repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+category: Announcements
+category-id: DIC_kwDOBY0E7c4CRtg9
+# 다른 주석 구성 요소를 사용할 때 Disqus를 클릭할 수 있습니다
 lazy_load_disqus : false
 
 # ---------------- #
-#      Search      #
+# # Search #
 # ---------------- #
 simple_jekyll_search:
-    # 是否支持全文搜索
-    fulltext: false
-    # 最多显示多少条搜索结果
-    limit: 10
+# 전체 텍스트 검색 지원 여부
+fulltext: false
+# 검색 결과를 최대 몇 개까지 표시할 지 여부
+limit: 10
 
 # ---------------- #
-#      Google      #
+# # Google #
 # ---------------- #
 google:
-    analytics_id: # G-20FLEG5Q2W
-    adsense:
-        enabled: false
-        footer: false
-        sidebar: false
-        sidebar-detail: false
-        content_header: false
-        content_footer: false
+analytics_id: # G-20FLEG5Q2W
+adsense:
+enabled: false
+footer: false
+sidebar: false
+sidebar-detail: false
+content_header: false
+content_footer: false
