@@ -38,8 +38,8 @@ components:
 # 페이지 오른쪽 상단 및 "정보" 페이지의 QR코드
 # 이미지를 수정하려면 assets/images/qrcode.jpg를 교체하십시오.
     qrcode:
-        enabled: true
-        image_alt: 시무룩한 프로그래머
+        enabled: false
+        image_alt: QR코드
 # 위키인덱스 페이지에서 사용할 보기, 지원 목록 (list) / 분류 (cate)
     wiki:
         view: cate
@@ -79,12 +79,16 @@ navs:
 
     -
         href: /archives/
-        label: 압축 파일
+        label: 연도별
         mobile-hidden: true
 
     -
+        href: /wiki/
+        label: 위키        
+
+    -
         href: /open-source/
-        label: 소스 열기
+        label: Github
         mobile-hidden: true
 
     -
@@ -92,17 +96,8 @@ navs:
         label: 클립
 
     -
-        href: /wiki/
-        label: 위키
-
-    -
-        href: /links/
-        label: 링크
-        mobile-hidden: true
-
-    -
         href: /about/
-        label: 설명
+        label: me
 
 # ---------------- #
 # # RSS #

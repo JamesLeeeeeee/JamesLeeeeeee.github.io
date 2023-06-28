@@ -1,15 +1,15 @@
 ---
 layout: wiki
 title: Wiki
-description: 人越学越觉得自己无知
-keywords: 维基, Wiki
+description: 색인
+keywords: 색인, Wiki
 comments: false
 copyright: false
-menu: 维基
+menu: 색인
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> 색인
 
 {% case site.components.wiki.view %}
 

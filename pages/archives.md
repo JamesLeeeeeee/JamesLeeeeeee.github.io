@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 归档
-description: 按年份归档
-keywords: 归档
+title: archive
+description: 연도별
+keywords: archive
 comments: false
-menu: 归档
+menu: archive
 permalink: /archives/
 ---
 

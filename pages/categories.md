@@ -1,10 +1,10 @@
 ---
 layout: categories
 title: Categories
-description: 哈哈，你找到了我的文章基因库
-keywords: 分类
+description: 카테고리
+keywords: 분류
 comments: false
-menu: 分类
+menu: 분류
 permalink: /categories/
 ---
 

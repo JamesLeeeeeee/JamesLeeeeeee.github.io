@@ -17,3 +17,15 @@
       - WTL
       - COM
       - WinDbg
+
+- name: DevOps keywords
+  keywords:
+      - Linux
+      - SRE
+      - Terraform
+      - Kubernetes
+      - Shell script
+      - DB
+      - CI/CD
+      - Testing
+      
