@@ -1,9 +1,9 @@
 ---
 layout: post
-title: flutter 'List<dynamic>' is not a subtype of type 'List<String>'
-categories: flutter, List<dynamic>, 리스트변환, 플러터
+title: flutter List is not a subtype of type List
+categories: flutter, List, 리스트변환, 플러터
 description: flutter 리스트 다이나믹을 리스트 스트링으로
-keywords: flutter, 'List<dynamic>', 리스트변환, 플러터, 'List<String>'
+keywords: flutter, List, 리스트변환, 플러터, List
 ---
 
 
